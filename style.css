@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Tiny5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#up-part, #down-part {
+    text-align: center;
+    background-color: #F3E8FF;
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 5px;                        /* Small radius */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);    /* Light shadow */
+}
+
+h1 {
+    font-family: 'Lobster',cursive;
+}
+
+h2, .custom-font {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.gold-button {
+    margin-bottom: 10px;
+    background: linear-gradient(45deg, #FFD700, #FFC700);
+    color: #ffffff;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gold-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.3);
+}
+
+.gold-button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline {
+    list-style: none; /* Remove bullet points */
+    padding-left: 0px; /* Remove left padding */
+    margin: 0;
+}
+
+.list-inline > li {
+    display: inline-block; /* Make list items inline */
+    padding: 0px 20px; /* Add padding between items */
+    font-size: large;
+    vertical-align: middle; /* Aligns items in the middle */
+}
+
+.list-inline > li > a {
+    color: #6A0DAD; /* Deep Purple color */
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.list-inline > li > a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+
+
+/* {
+    border: solid red 1px;
+}
